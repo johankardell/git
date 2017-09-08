@@ -1,5 +1,20 @@
 # git
 
+## Undo uncommitted changes to a single file
+
+Initial history
+
+    M testfile.cs
+    M textfile.txt
+
+In this case, I accidentally modified textfile.txt and want to undo it without undoing the changes made to testfile.cs.
+
+    git checkout -- textfile.txt
+
+Resulting in history:
+
+     M testfile.cs
+
 ## Undo commit, but keep changes
 
 Initial history
