@@ -114,3 +114,9 @@ This will open the same window as before, where you get to pick the commits you 
 Undo a rebase that didn't go as you hoped
 
     git reset --hard ORIG_HEAD
+
+## Delete all local branches
+
+Delete all local branches except master
+
+    git branch | grep -v "master" | xargs git branch -D
