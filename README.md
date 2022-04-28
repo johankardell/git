@@ -1,5 +1,8 @@
 # git
 
+Really good link with a git cheat sheet:
+https://education.github.com/git-cheat-sheet-education.pdf
+
 ## Undo uncommitted changes to a single file
 
 Initial history
